@@ -1,0 +1,339 @@
+:root {
+    --theme-bg-color: rgba(16 18 27 / 40%);
+    --border-color: rgba(113 119 144 / 25%);
+    --theme-color: #f9fafb;
+    --inactive-color: rgb(113 119 144 / 78%);
+    --body-font: "Poppins", sans-serif;
+    --hover-menu-bg: #0c0f194d;
+    --content-title-color: #999ba5;
+    --content-bg: rgb(146 151 179 / 13%);
+    --button-inactive: rgb(249 250 251 / 55%);
+    --dropdown-bg: #21242d;
+    --dropdown-hover: rgb(42 46 60);
+    --popup-bg: rgb(22 25 37);
+    --search-bg: #14162b;
+    --overlay-bg: rgba(36, 39, 59, 0.3);
+    --scrollbar-bg: rgb(1 2 3 / 40%);
+  }
+  
+  .light-mode {
+    --theme-bg-color: rgb(255 255 255 / 31%);
+    --theme-color: #3c3a3a;
+    --inactive-color: #333333;
+    --button-inactive: #3c3a3a;
+    --search-bg: rgb(255 255 255 / 31%);
+    --dropdown-bg: #f7f7f7;
+    --overlay-bg: rgb(255 255 255 / 30%);
+    --dropdown-hover: rgb(236 236 236);
+    --border-color: rgb(255 255 255 / 35%);
+    --popup-bg: rgb(255 255 255);
+    --hover-menu-bg: rgba(255 255 255 / 35%);
+    --scrollbar-bg: rgb(255 253 253 / 57%);
+    --content-title-color: --theme-color;
+  }
+
+  #bookmarkBtn{
+    font-size: 30px;
+    opacity: 0;
+  }
+
+  #bookmarkBtnInside{
+    position: relative;
+    margin-left: 417px;
+  }
+
+  #bookmarkBtnInside:hover{
+    color: #FFD700;
+  }
+
+  #bookmarkBtn2{
+    font-size: 30px;
+    opacity: 0;
+  }
+
+  #bookmarkBtnInside2{
+    position: relative;
+    margin-left: 417px;
+  }
+
+  #bookmarkBtnInside2:hover{
+    color: #FFD700;
+  }
+
+.propertiesContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.propertiesInContent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.propertiesInContent2{
+    display: flex;
+    flex-direction: row;
+}
+
+.propertyInContent{
+    margin-right: 20px;
+}
+
+
+.propertyInContent{
+   color: var(--popup-bg);
+   border: 4px solid var(--theme-color);
+   width: 320px;
+   height: 420px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   width: 50%;
+   max-width: 300px;
+   background-color: var(--theme-color);
+}
+
+.propertyInContent img{
+    height: 100%;
+    border-radius: 20px;
+}
+
+.propertiesInContent h5{
+    padding-top: 10px;
+}
+
+.propertyInContent button{
+    border: 2px solid var(--theme-color);
+    border-radius: 50px;
+    padding: 5px;
+    width: 120px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.propertyInContent button:hover{
+    color: var(--theme-color);
+    background-color: var(--popup-bg);
+}
+
+.propertyDescription{
+    width: 720px;
+    height: 420px;
+    background-color: var(--theme-color);
+    border: 8px solid var(--theme-color);
+    border-radius: 20px;
+    padding: 20px;
+    color: var(--popup-bg);
+    opacity: 1;
+}
+
+.propertyDescription2{
+    width: 720px;
+    height: 420px;
+    background-color: var(--theme-color);
+    border: 8px solid var(--theme-color);
+    border-radius: 20px;
+    padding: 20px;
+    color: var(--popup-bg);
+    opacity: 0;
+}
+
+
+.roomContentDivider{
+    border-bottom: 3px solid var(--popup-bg);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.roomContentDivider2{
+    border-bottom: 3px solid var(--popup-bg);
+    padding-bottom: 10px;
+}
+
+.propertyPriceIcon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.priceIconWord{
+    padding-left: 33px;
+}
+
+.priceIconWord i{
+    padding-left: 5px;
+}
+
+.priceContentWord{
+    padding-left: 11px;
+}
+
+.priceRoom{
+    padding-left: 5px;
+}
+
+.propertyRoomIcon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.roomIconWord{
+    padding-left: 0px;
+}
+
+.roomContentWord{
+    padding-left: 13px;
+}
+
+.roomIconWord i{
+    padding-left: 6px;
+}
+
+.roomRoom{
+    padding-left: 5px;
+}
+
+.propertyBathroomIcon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.bathroomIconWord i{
+    padding-right: 14px;
+}
+
+.bathroomRoom{
+    padding-left: 5px;
+}
+
+.propertySqftIcon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.sqftIconWord{
+    padding-left: 35px;
+}
+
+.sqftIconWord i{
+    padding-left: -8px;
+}
+
+.sqftContentWord{
+    padding-left: 8px;
+}
+
+.sqftHouse{
+    padding-left: 6px;
+}
+
+.propertyDirectionIcon{
+    display: flex;
+    flex-direction: row;
+}
+
+.directionIconWord{
+    padding-left: 12px;
+}
+
+.directionContentWord{
+    padding-left: 8px;
+}
+
+.directionHouse{
+    padding-left: 8px;
+
+}
+
+.contentDivider{
+    border-bottom: 3px solid var(--popup-bg);
+    margin-top: 10px;
+}
+
+.profilePic{
+    margin-top: 30px;
+}
+
+.userName{
+    margin-left: 140px;
+    margin-bottom: -25px;
+}
+
+.star{
+    margin-left: 130px;
+    margin-top: -40px;
+    font-size: 20px;
+    padding-left: 7px;
+    cursor: pointer;
+    
+}
+
+.bi-star{
+    border: 2px solid var(--popup-bg);
+    padding: 5px;
+    margin: -4px;
+}
+
+#star1{
+    border-right: none;
+    padding-right: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#star2{
+    border-right: none;
+    padding-right: 8px;
+}
+
+#star3{
+    border-right: none;
+    padding-right: 8px;
+}
+
+#star4{
+    border-right: none;
+    padding-right: 8px;
+}
+
+#star5{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bi-star:hover{
+    background-color: #FFD700;
+}
+
+.rate{
+    border: 2px solid var(--popup-bg);
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius: 50px;
+    background-color: var(--popup-bg);
+    color: var(--theme-color);
+}
+
+.bookAppointment{
+    border: 2px solid var(--popup-bg);
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--popup-bg);
+}
+
+.bookAppointment:hover{
+    background-color: var(--popup-bg);
+    color: var(--theme-color);
+}

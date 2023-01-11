@@ -1,0 +1,117 @@
+:root {
+  --theme-bg-color: rgba(16 18 27 / 40%);
+  --border-color: rgba(113 119 144 / 25%);
+  --theme-color: #f9fafb;
+  --inactive-color: rgb(113 119 144 / 78%);
+  --body-font: "Poppins", sans-serif;
+  --hover-menu-bg: #0c0f194d;
+  --content-title-color: #999ba5;
+  --content-bg: rgb(146 151 179 / 13%);
+  --button-inactive: rgb(249 250 251 / 55%);
+  --dropdown-bg: #21242d;
+  --dropdown-hover: rgb(42 46 60);
+  --popup-bg: rgb(22 25 37);
+  --search-bg: #14162b;
+  --overlay-bg: rgba(36, 39, 59, 0.3);
+  --scrollbar-bg: rgb(1 2 3 / 40%);
+--c-gray-900: #000000;
+--c-gray-800: #1f1f1f;
+--c-gray-700: #2e2e2e;
+--c-gray-600: #313131;
+--c-gray-500: #969593;
+--c-gray-400: #a6a6a6;
+--c-gray-300: #bdbbb7;
+--c-gray-200: #f1f1f1;
+--c-gray-100: #ffffff;
+
+--c-green-500: #45ffbc;
+--c-olive-500: #e3ffa8;
+
+--c-white: var(--c-gray-100);
+
+--c-text-primary: var(--c-gray-100);
+--c-text-secondary: var(--c-gray-200);
+--c-text-tertiary: var(--c-gray-500);
+}
+
+.light-mode {
+  --theme-bg-color: rgb(255 255 255 / 31%);
+  --theme-color: #3c3a3a;
+  --inactive-color: #333333;
+  --button-inactive: #3c3a3a;
+  --search-bg: rgb(255 255 255 / 31%);
+  --dropdown-bg: #f7f7f7;
+  --overlay-bg: rgb(255 255 255 / 30%);
+  --dropdown-hover: rgb(236 236 236);
+  --border-color: rgb(255 255 255 / 35%);
+  --popup-bg: rgb(255 255 255);
+  --hover-menu-bg: rgba(255 255 255 / 35%);
+  --scrollbar-bg: rgb(255 253 253 / 57%);
+  --content-title-color: --theme-color;
+}
+
+.recommendContent{
+  display: flex;
+  flex-direction:row;
+}
+
+.recommendTitle{
+  color: var(--theme-color);
+  font-family: var(--body-font);
+}
+
+.recommendDivider{
+  margin-bottom: 10px;
+  content: "";
+  height: 4px;
+  width: 140px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, var(--theme-color), hsl(222deg, 80%, 50%));
+}
+
+.recommendCard{
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--theme-color);
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: 0.1s ease;
+  width: 300px;
+  height: 360px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid var(--theme-color);
+  margin-right: 20px;
+} 
+
+.recommendCard:hover{
+  background-color: var(--theme-color);
+  opacity: 1;
+  color: var(--popup-bg);
+}
+
+.recommendCard img{
+  border-radius: 10px;
+}
+
+.recommendCardHeader h3{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20pt;
+}
+
+.recommendBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.recommendBtn:hover{
+  border-radius: 50px;
+  border: 2px solid var(--theme-bg-color);
+}

@@ -1,0 +1,26 @@
+
+
+.addBtn{
+    margin-top: 10px;
+    align-self: center;
+}
+
+.addBtn a{
+    margin-top: 15px;
+    white-space: nowrap;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 2px solid var(--border-color);
+    color: var(--theme-color);
+    text-decoration: none;
+}
+
+.addBtn a:hover{
+    background-color: var(--theme-bg-color);
+    color: var(--theme-color);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 ;
+}

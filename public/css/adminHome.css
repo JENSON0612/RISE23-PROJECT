@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-bg-color: rgba(16 18 27 / 40%);
+  --border-color: rgba(113 119 144 / 25%);
+  --theme-color: #f9fafb;
+  --inactive-color: rgb(113 119 144 / 78%);
+  --body-font: "Poppins", sans-serif;
+  --hover-menu-bg: #0c0f194d;
+  --content-title-color: #999ba5;
+  --content-bg: rgb(146 151 179 / 13%);
+  --button-inactive: rgb(249 250 251 / 55%);
+  --dropdown-bg: #21242d;
+  --dropdown-hover: rgb(42 46 60);
+  --popup-bg: rgb(22 25 37);
+  --search-bg: #14162b;
+  --overlay-bg: rgba(36, 39, 59, 0.3);
+  --scrollbar-bg: rgb(1 2 3 / 40%);
+}
+
+.light-mode {
+  --theme-bg-color: rgb(255 255 255 / 31%);
+  --theme-color: #3c3a3a;
+  --inactive-color: #333333;
+  --button-inactive: #3c3a3a;
+  --search-bg: rgb(255 255 255 / 31%);
+  --dropdown-bg: #f7f7f7;
+  --overlay-bg: rgb(255 255 255 / 30%);
+  --dropdown-hover: rgb(236 236 236);
+  --border-color: rgb(255 255 255 / 35%);
+  --popup-bg: rgb(255 255 255);
+  --hover-menu-bg: rgba(255 255 255 / 35%);
+  --scrollbar-bg: rgb(255 253 253 / 57%);
+  --content-title-color: --theme-color;
+}
+
+.adminHomeContainer h2{
+  display: inline;
+}
+
+.adminHomeContainer p{
+  display: inline-block;
+}
+
+.adminHomeContent h2{
+  color: var(--theme-color);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  border: 2px solid var(--theme-color);
+}
+
+.adminHomeContent p{
+  color: var(--theme-color);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  border: 2px solid var(--theme-color);
+  border-top: none;
+  text-align: center;
+  padding-top: 15px;
+  height: 140px;
+  max-height: 140px;
+}
+
+.numberUser{
+  margin-left: 60px;
+  margin-right: -5px;
+  border-right: none;
+  border-top-left-radius: 20px;
+  margin-top: 0;
+}
+
+.adminUserName{
+  margin-right: -5px;
+  border-right: none;
+}
+
+.phoneNo{
+  border-right: none;
+  margin-right: -5px;
+}
+
+.propertyDistrict{
+  margin-right: -5px;
+  border-right: none;
+}
+
+.propertyArea{
+  margin-right: -5px;
+  border-right: none;
+}
+
+.propertyStreet{
+  border-top-right-radius: 20px;
+}
+
+.displayAdminData{
+  display: inline;
+  border: 2px solid var(--theme-color);
+}
+
+.displayUserNumber{
+  margin-top: 0px;
+  margin-left: 60px;
+  width: 133.5px;
+  border-right: none;
+  margin-right: -5px;
+}
+
+.displayUserName{
+  width: 167px;
+  margin-right: -5px;
+}
+
+.displayPhoneNo{
+  width: 245px;
+  margin-right: -5px;
+}
+
+.displayDistrict{
+  width: 176px;
+  margin-right: -5px;
+}
+
+.displayArea{
+  width: 154px;
+  margin-right: -5px;
+}
+
+.displayStreet{
+  width: 164px;
+}
